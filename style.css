@@ -1,0 +1,365 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Archivo:ital,wght@0,100..900;1,100..900&family=DotGothic16&display=swap");
+
+body,
+a,
+p,
+div,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 48px;
+  border-bottom: 1px solid #000000;
+}
+nav h1 {
+  font-family: DotGothic16;
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: -0.04em;
+  text-align: left;
+}
+nav div {
+  display: flex;
+  gap: 32px;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+  font-family: DotGothic16;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+  text-align: left;
+}
+
+header {
+  margin: 48px;
+  padding: 96px 0px;
+}
+header h1 {
+  margin-bottom: 48px;
+  font-family: DotGothic16;
+  font-size: 120px;
+  font-weight: 400;
+  line-height: 120px;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
+.projects {
+  padding: 48px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 48px;
+}
+.projects .project {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.projects img {
+  margin-bottom: 8px;
+}
+.projects h1 {
+  font-family: Archivo;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.projects p {
+  font-family: Archivo;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.info {
+  padding: 200px 48px 96px 48px;
+}
+.info h1 {
+  font-family: DotGothic16;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 68px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  width: 67%;
+  margin-bottom: 96px;
+}
+
+.featured {
+  display: flex;
+}
+.featured div {
+  display: flex;
+  flex-direction: column;
+  padding-right: 48px;
+  justify-content: center;
+}
+.featured h1 {
+  font-family: DotGothic16;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 68px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  margin-bottom: 16px;
+}
+.featured p {
+  font-family: Archivo;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.005em;
+  text-align: left;
+  margin-bottom: 48px;
+}
+.featured button {
+  width: max-content;
+  font-family: Archivo Narrow;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: white;
+  background: #2419f3;
+  padding: 12px 24px 12px 24px;
+  gap: 0px;
+  border-radius: 8px;
+  border: none;
+}
+
+.contact {
+  background: url("images/background.png");
+  padding: 466px 48px 48px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.contact h1 {
+  font-family: DotGothic16;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: white;
+  margin-bottom: 16px;
+}
+.contact p {
+  font-family: Archivo;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.005em;
+  text-align: left;
+  color: white;
+  margin-bottom: 48px;
+}
+.contact button {
+  font-family: Archivo Narrow;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  padding: 12px 24px;
+  width: max-content;
+  border: none;
+  border-radius: 8px;
+}
+
+.about h1 {
+  margin: 96px 90px;
+  font-family: DotGothic16;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 68px;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+.about {
+  border-bottom: 1px solid #000000;
+}
+
+.welcome {
+  padding: 48px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 48px;
+}
+.welcome p {
+  font-family: Archivo;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.005em;
+  text-align: left;
+}
+
+.images {
+  padding: 24px 48px;
+  margin-bottom: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.one {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 48px;
+}
+.two {
+  display: flex;
+  justify-content: end;
+}
+
+footer {
+  padding: 96px 48px 24px 48px;
+  display: flex;
+  justify-content: space-between;
+}
+footer h1 {
+  font-family: DotGothic16;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+  text-align: left;
+}
+footer button {
+  font-family: Archivo Narrow;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  padding: 12px 24px;
+  border: 1px solid #000000;
+  background: #fff;
+  border-radius: 8px;
+}
+
+/* --- Responsive Styles --- */
+
+/* Tablet (768px and below) */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 24px;
+  }
+
+  nav h1 {
+    font-size: 36px;
+  }
+
+  nav div {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  header h1 {
+    font-size: 80px;
+  }
+
+  .projects {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 24px;
+  }
+
+  .projects h1,
+  .projects p {
+    font-size: 18px;
+  }
+
+  .info h1 {
+    font-size: 48px;
+    width: 100%;
+  }
+
+  .featured h1 {
+    font-size: 48px;
+  }
+
+  .featured p {
+    font-size: 20px;
+  }
+
+  .contact h1 {
+    font-size: 28px;
+  }
+
+  .contact p {
+    font-size: 20px;
+  }
+
+  .welcome {
+    grid-template-columns: 1fr;
+    padding: 24px;
+  }
+
+  .images .one {
+    grid-template-columns: 1fr;
+  }
+
+  footer {
+    flex-direction: column;
+    padding: 48px 24px;
+    align-items: center;
+  }
+
+  footer h1 {
+    font-size: 24px;
+  }
+
+  footer button {
+    font-size: 18px;
+    padding: 8px 16px;
+  }
+}
+
+/* Mobile (480px and below) */
+@media (max-width: 480px) {
+  nav {
+    padding: 8px 16px;
+  }
+
+  nav h1 {
+    font-size: 30px;
+  }
+
+  nav a {
+    font-size: 22px;
+  }
+
+  header h1 {
+    font-size: 60px;
+  }
+
+  .projects {
+    grid-template-columns: 1fr;
+  }
+
+  .projects h1,
+  .projects p {
+    font-size: 16px;
+  }
+
+  .info h1 {
+    font-size: 36px;
+    width: 100%;
+  }
+
+  .featured h1 {
+    font-size: 
+
+
